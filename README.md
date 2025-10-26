@@ -44,8 +44,8 @@ Real‑time data is sent to the Blynk platform, where users can monitor fill lev
 - V3 → Distance (Front Sensor)
 - V4 → Servo Lid Position
 
-**Future Improvements
-**- Solar‑powered version for outdoor use
+**Future Improvements**
+- Solar‑powered version for outdoor use
 - Integration with municipal waste collection systems
 - Machine learning for predictive fill‑level alerts
 
