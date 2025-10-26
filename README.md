@@ -1,6 +1,6 @@
-**SmartBin – IoT‑Enabled Smart Trash Bin
+**SmartBin – IoT‑Enabled Smart Trash Bin**
 
-Description**
+**Description**
 SmartBin is an IoT‑based waste management system powered by ESP32 and integrated with the Blynk IoT platform. It combines sensors and actuators to automate lid control, monitor trash levels, and detect harmful gases, while providing real‑time alerts and data visualization on a mobile dashboard.
 
 **Features**
@@ -15,8 +15,9 @@ An MQ‑135 gas sensor measures smoke or harmful gases inside the bin. If levels
 - Cloud Connectivity
 Real‑time data is sent to the Blynk platform, where users can monitor fill level, lid status, and air quality from anywhere.
 
-**Hardware Components
-**- ESP32 Development Board
+**Hardware Components**
+
+- ESP32 Development Board
 - Ultrasonic Sensors (HC‑SR04) – for object detection & trash level
 - IR Sensor (optional) – for additional fill detection
 - MQ‑135 Gas Sensor – for smoke/air quality
@@ -25,19 +26,19 @@ Real‑time data is sent to the Blynk platform, where users can monitor fill lev
 - Power Supply (Battery/Adapter)
 - Supporting electronics (resistors, wires, breadboard/PCB)
 
-**Software & Cloud
-**- Arduino IDE / PlatformIO for firmware development
+**Software & Cloud**
+- Arduino IDE / PlatformIO for firmware development
 - Blynk IoT App for dashboard, notifications, and remote monitoring
 
-**How It Works
-**- Approach the bin → Ultrasonic detects your hand → Servo opens lid.
+**How It Works**
+- Approach the bin → Ultrasonic detects your hand → Servo opens lid.
 - After a delay → Servo closes lid automatically.
 - Trash level measured → Fill percentage calculated and sent to Blynk.
 - If bin is full → LED + buzzer alert + push notification.
 - Gas detected → MQ‑135 triggers buzzer + Blynk event notification.
 
-**Blynk Dashboard
-**- V0 → Trash Fill Level (%)
+**Blynk Dashboard**
+- V0 → Trash Fill Level (%)
 - V1 → Smoke/Gas PPM
 - V2 → LED Indicator (Safe/Moderate/Danger)
 - V3 → Distance (Front Sensor)
